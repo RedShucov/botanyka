@@ -4,6 +4,8 @@
 
 * Наставник: [Антон Попов](https://github.com/ademaro).
 
+* Сайт: [Ботаника](https://redshucov.github.io/botanyka/).
+
 ---
 
 Репозиторий создан для личной практики в написании HTML и CSS кода.
