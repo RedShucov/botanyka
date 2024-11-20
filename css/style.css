@@ -73,3 +73,20 @@ body {
   white-space: nowrap;
   width: 1px;
 }
+
+/* main-navigation */
+
+.main-navigation__list {
+  margin: 0;
+  padding: 16px 0;
+
+  border-top: solid 1px #ae7c78;
+  border-bottom: solid 1px #ae7c78;
+  list-style: none;
+}
+
+.main-navigation__link {
+  color: inherit;
+
+  text-decoration: none;
+}
