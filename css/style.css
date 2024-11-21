@@ -90,3 +90,33 @@ body {
 
   text-decoration: none;
 }
+
+/* hero */
+
+.hero__title {
+  font-family: "Playfair Display", Arial, sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.hero__title-accent {
+  font-style: italic;
+}
+
+.hero__description {
+  font-size: 24px;
+}
+
+.hero__catalog-button {
+  display: inline-block;
+  width: 285px;
+  padding: 30px;
+  box-sizing: border-box;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #d89999;
+  border-radius: 40px;
+  text-decoration: none;
+}
