@@ -74,6 +74,22 @@ body {
   width: 1px;
 }
 
+/* button */
+
+.button {
+  display: inline-block;
+  width: 285px;
+  padding: 30px;
+  box-sizing: border-box;
+
+  color: #ffffff;
+  text-align: center;
+
+  background-color: #d89999;
+  border-radius: 40px;
+  text-decoration: none;
+}
+
 /* main-navigation */
 
 .main-navigation__list {
@@ -105,18 +121,4 @@ body {
 
 .hero__description {
   font-size: 24px;
-}
-
-.hero__catalog-button {
-  display: inline-block;
-  width: 285px;
-  padding: 30px;
-  box-sizing: border-box;
-
-  color: #ffffff;
-  text-align: center;
-
-  background-color: #d89999;
-  border-radius: 40px;
-  text-decoration: none;
 }
