@@ -51,8 +51,8 @@
 
       <a class="hero__catalog-button button" href="#">Смотреть каталог</a>
 
-      <img class="hero_image" src="./image/bouquet-1.jpg" width="386" height="404" alt="Авторский букет с розовыми розами">
-      <img class="hero_image" src="./image/bouquet-2.jpg" width="387" height="420" alt="Наш авторский микс с разнообразными цветами">
+      <img class="hero__image" src="./image/bouquet-1.jpg" width="386" height="404" alt="Авторский букет с розовыми розами">
+      <img class="hero__image" src="./image/bouquet-2.jpg" width="387" height="420" alt="Наш авторский микс с разнообразными цветами">
     </section>
 
     <section class="features">
@@ -220,28 +220,36 @@
     <section class="contact-info">
       <h2 class="sr-only">Контактная информация</h2>
 
-      <p>Мы ждем вас</p>
+      <p class="contact-info__title">Мы ждем вас</p>
 
-      <address>
-        <dl>
-          <div>
-            <dt>Приходите к нам:</dt>
-            <dd>Санкт-Петербург, ул. Большая Конюшенная, 19</dd>
+      <address class="contact-info__address">
+        <dl class="contact-info__list">
+          <div class="contact-info__item">
+            <dt class="contact-info__item-caption">Приходите к нам:</dt>
+            <dd class="contact-info__item-info">
+              Санкт-Петербург, ул. Большая Конюшенная, 19
+            </dd>
           </div>
 
-          <div>
-            <dt>Режим работы:</dt>
-            <dd>Пн-Вск, с <time datetime="09:00">9-00</time> до <time datetime="20:00">20-00</time></dd>
+          <div class="contact-info__item">
+            <dt class="contact-info__item-caption">Режим работы:</dt>
+            <dd class="contact-info__item-info">
+              Пн-Вск, с <time datetime="09:00">9-00</time> до <time datetime="20:00">20-00</time>
+            </dd>
           </div>
 
-          <div>
-            <dt>Позвоните нам:</dt>
-            <dd><a href="tel:+78129834719">+7 (812) 983-47-19</a></dd>
+          <div class="contact-info__item">
+            <dt class="contact-info__item-caption">Позвоните нам:</dt>
+            <dd class="contact-info__item-info">
+              <a class="contact-info__item-link" href="tel:+78129834719">+7 (812) 983-47-19</a>
+            </dd>
           </div>
 
-          <div>
-            <dt>Напишите нам:</dt>
-            <dd><a href="mailto:info@botanika.ru">info@botanika.ru</a></dd>
+          <div class="contact-info__item">
+            <dt class="contact-info__item-caption">Напишите нам:</dt>
+            <dd class="contact-info__item-info">
+              <a class="contact-info__item-link" href="mailto:info@botanika.ru">info@botanika.ru</a>
+            </dd>
           </div>
         </dl>
       </address>
