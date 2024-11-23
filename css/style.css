@@ -197,3 +197,15 @@ body {
 .popular__button--next {
   mask: url('../img/interactive/arrow-right.svg') no-repeat center/cover;
 }
+
+/* bouquet */
+
+.bouquet__title {
+font-size: 24px;
+font-weight: 500;
+}
+
+.bouquet__price {
+  font-size: 24px;
+  font-weight: 500;
+}
