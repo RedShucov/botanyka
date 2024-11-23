@@ -294,3 +294,27 @@ font-weight: 500;
 .social-list__link--twitter {
   mask: url("../img/social/twitter-icon.svg") no-repeat center / 25px 20px;
 }
+
+/* reviews */
+
+.reviews {
+  border: 1px solid #ae7c78;
+}
+
+.reviews__title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+
+.reviews__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.reviews__author {
+  font-weight: 500;
+}
