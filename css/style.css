@@ -168,3 +168,32 @@ body {
 .info-list__item-title {
   font-weight: 500;
 }
+
+/* popular */
+
+.popular__title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
+
+.popular__button {
+  width: 50px;
+  height: 15px;
+  padding: 0;
+
+  background-color: #ae7c78;
+  border: none;
+
+  cursor: pointer;
+}
+
+.popular__button--previous {
+  mask: url('../img/interactive/arrow-left.svg') no-repeat center/cover;
+}
+
+.popular__button--next {
+  mask: url('../img/interactive/arrow-right.svg') no-repeat center/cover;
+}
