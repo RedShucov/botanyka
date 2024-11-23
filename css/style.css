@@ -265,3 +265,32 @@ font-weight: 500;
   font-weight: 700;
   letter-spacing: 0.72px;
 }
+
+/* social-list */
+
+.social-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social-list__link {
+  display: block;
+  width: 30px;
+  height: 30px;
+
+  background-color: #d89999;
+}
+
+.social-list__link--instagram {
+  mask: url("../img/social/instagram-icon.svg") no-repeat center / 20px 20px;
+}
+
+.social-list__link--facebook {
+  mask: url("../img/social/facebook-icon.svg") no-repeat center / 20px 20px;
+}
+
+.social-list__link--twitter {
+  mask: url("../img/social/twitter-icon.svg") no-repeat center / 25px 20px;
+}
