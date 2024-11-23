@@ -236,3 +236,19 @@ font-weight: 500;
   font-weight: 700;
   letter-spacing: 0.72px;
 }
+
+/* promo-offer */
+
+.promo-offer {
+  font-size: 24px;
+  color: #ffffff;
+
+  background: #ae7c78;
+}
+
+.promo-offer__title {
+  font-family: "Playfair Display";
+  font-size: 44px;
+  font-weight: 400;
+  letter-spacing: 0.88px;
+}
