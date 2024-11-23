@@ -252,3 +252,16 @@ font-weight: 500;
   font-weight: 400;
   letter-spacing: 0.88px;
 }
+
+/* following-news */
+
+.following-news {
+  font-size: 24px;
+}
+
+.following-news__title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+}
