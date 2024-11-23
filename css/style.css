@@ -110,6 +110,10 @@ body {
   text-decoration: none;
 }
 
+.main-navigation--footer .main-navigation__link {
+  color: #ffffff;
+}
+
 /* hero */
 
 .hero__title {
@@ -283,6 +287,10 @@ font-weight: 500;
   background-color: #d89999;
 }
 
+.social-list--footer .social-list__link {
+  background-color: #ffffff;
+}
+
 .social-list__link--instagram {
   mask: url("../img/social/instagram-icon.svg") no-repeat center / 20px 20px;
 }
@@ -342,3 +350,12 @@ font-weight: 500;
 
   text-decoration: none;
 }
+
+/* footer */
+
+.footer {
+  background: #ae7c78;
+}
+
+
+/*  */
