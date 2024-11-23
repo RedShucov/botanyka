@@ -88,6 +88,7 @@ body {
 
   background-color: #d89999;
   border-radius: 40px;
+
   text-decoration: none;
 }
 
@@ -99,6 +100,7 @@ body {
 
   border-top: solid 1px #ae7c78;
   border-bottom: solid 1px #ae7c78;
+
   list-style: none;
 }
 
@@ -174,7 +176,6 @@ body {
 .popular__title {
   font-family: "Playfair Display";
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   letter-spacing: 0.72px;
 }
@@ -208,4 +209,30 @@ font-weight: 500;
 .bouquet__price {
   font-size: 24px;
   font-weight: 500;
+}
+
+/* categories */
+
+.categories__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.categories__item {
+  background: rgba(174, 124, 120, 0.60);
+}
+
+.categories__item-link {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.categories__item-title {
+  font-family: "Playfair Display";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
 }
