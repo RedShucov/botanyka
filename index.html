@@ -12,7 +12,7 @@
   <header class="header">
     <nav class="main-navigation">
       <a class="main-navigation__logo" href="./index.html">
-        <img src="./image/logo/logo-primary.svg" width="100" height="32"  alt="Логотип компании">
+        <img src="./image/logo/logo-primary.svg" width="100" height="32" alt="Логотип компании">
       </a>
 
       <ul class="main-navigation__list">
@@ -77,28 +77,30 @@
     </section>
 
     <section class="popular">
-      <h2>Популярные букеты</h2>
+      <h2 class="popular__title">Популярные букеты</h2>
 
-      <article class="bouquet">
+      <article class="popular__bouquet bouquet">
         <h3 class="bouquet__title">Букет «Нежность»</h3>
 
-        <p class="bouquet__name">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+        <p class="bouquet__description">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
 
         <span class="bouquet__size">30 × 40 см</span>
 
         <span class="bouquet__price">3600 руб.</span>
 
-        <a class="bouquet__order-button" href="#">Заказать</a>
+        <a class="bouquet__order-button button" href="#">Заказать</a>
 
-        <img class="bouquet__image" src="./image/bouquet-tenderness.jpg" width="387" height="438" alt="Букет «Нежность»">
+        <img class="bouquet__image" src="./image/bouquet-tenderness.jpg" width="387" height="438" alt="Букет «Нежность» из белых роз с нежным жёлтым отливом">
       </article>
 
-      <button>
-        <span class="sr-only">Предыдущий букет.</span>
-      </button>
-      <button>
-        <span class="sr-only">Следующий букет.</span>
-      </button>
+      <div class="popular__navigation">
+        <button class="popular__button popular__button--previous">
+          <span class="sr-only">Предыдущий букет</span>
+        </button>
+        <button class="popular__button popular__button--next">
+          <span class="sr-only">Следующий букет</span>
+        </button>
+      </div>
     </section>
 
     <section class="categories">
@@ -253,7 +255,7 @@
   <footer class="footer">
     <nav>
       <a href="./index.html">
-        <img src="./image/logo/logo-secondary.svg" width="100" height="32"  alt="Логотип компании">
+        <img src="./image/logo/logo-secondary.svg" width="100" height="32" alt="Логотип компании">
       </a>
 
       <ul>
