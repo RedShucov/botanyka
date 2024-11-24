@@ -351,11 +351,8 @@ font-weight: 500;
   text-decoration: none;
 }
 
-/* footer */
+/* page-footer */
 
-.footer {
+.page-footer {
   background: #ae7c78;
 }
-
-
-/*  */
