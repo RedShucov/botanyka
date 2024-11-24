@@ -196,11 +196,11 @@ body {
 }
 
 .popular__button--previous {
-  mask: url('../img/interactive/arrow-left.svg') no-repeat center/cover;
+  mask: url('../images/img/interactive/arrow-left.svg') no-repeat center/cover;
 }
 
 .popular__button--next {
-  mask: url('../img/interactive/arrow-right.svg') no-repeat center/cover;
+  mask: url('../images/img/interactive/arrow-right.svg') no-repeat center/cover;
 }
 
 /* bouquet */
@@ -292,15 +292,15 @@ font-weight: 500;
 }
 
 .social-list__link--instagram {
-  mask: url("../img/social/instagram-icon.svg") no-repeat center / 20px 20px;
+  mask: url("../images/img/social/instagram-icon.svg") no-repeat center / 20px 20px;
 }
 
 .social-list__link--facebook {
-  mask: url("../img/social/facebook-icon.svg") no-repeat center / 20px 20px;
+  mask: url("../images/img/social/facebook-icon.svg") no-repeat center / 20px 20px;
 }
 
 .social-list__link--twitter {
-  mask: url("../img/social/twitter-icon.svg") no-repeat center / 25px 20px;
+  mask: url("../images/img/social/twitter-icon.svg") no-repeat center / 25px 20px;
 }
 
 /* reviews */
