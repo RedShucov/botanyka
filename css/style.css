@@ -55,9 +55,7 @@
 body {
   margin: 0;
 
-  font-family: "Montserrat", Arial, sans-serif;
-  font-size: 16px;
-  line-height: normal;
+  font: 16px/1.2 "Montserrat", Arial, sans-serif;
   color: #ae7c78;
 
   background-color: #ffffff;
@@ -117,13 +115,7 @@ body {
 /* hero */
 
 .hero__title {
-  font-family: "Playfair Display", Arial, sans-serif;
-  font-size: 44px;
-  font-weight: 400;
-}
-
-.hero__title-accent {
-  font-style: italic;
+  font: 400 44px "Playfair Display", Arial, sans-serif;
 }
 
 .hero__description {
@@ -167,7 +159,7 @@ body {
   transform: translateX(-100%);
 }
 
-.info-list--steps .info-list__item::before{
+.info-list--steps .info-list__item::before {
   transform: translateY(-100%);
 }
 
@@ -178,9 +170,7 @@ body {
 /* popular */
 
 .popular__title {
-  font-family: "Playfair Display";
-  font-size: 36px;
-  font-weight: 700;
+  font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
 }
 
@@ -206,8 +196,8 @@ body {
 /* bouquet */
 
 .bouquet__title {
-font-size: 24px;
-font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .bouquet__price {
@@ -235,9 +225,7 @@ font-weight: 500;
 }
 
 .categories__item-title {
-  font-family: "Playfair Display";
-  font-size: 36px;
-  font-weight: 700;
+  font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
 }
 
@@ -251,9 +239,7 @@ font-weight: 500;
 }
 
 .promo-offer__title {
-  font-family: "Playfair Display";
-  font-size: 44px;
-  font-weight: 400;
+  font: 400 44px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.88px;
 }
 
@@ -264,9 +250,7 @@ font-weight: 500;
 }
 
 .following-news__title {
-  font-family: "Playfair Display";
-  font-size: 36px;
-  font-weight: 700;
+  font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
 }
 
@@ -310,9 +294,7 @@ font-weight: 500;
 }
 
 .reviews__title {
-  font-family: "Playfair Display";
-  font-size: 36px;
-  font-weight: 700;
+  font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
 }
 
@@ -330,8 +312,7 @@ font-weight: 500;
 /* contact-info */
 
 .contact-info__title {
-  font-family: "Playfair Display";
-  font-size: 36px;
+  font: 700 36px "Playfair Display", Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -351,7 +332,7 @@ font-weight: 500;
   text-decoration: none;
 }
 
-/* page-footer */
+/* footer */
 
 .footer {
   background: #ae7c78;
