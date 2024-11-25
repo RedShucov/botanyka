@@ -122,28 +122,21 @@ body {
   font-size: 24px;
 }
 
-/* info-list */
+/* features */
 
-.info-list {
+.features__list {
   margin: 0;
   padding: 0;
 
   list-style: none;
 }
 
-.info-list__item {
+.features__item {
+  padding-left: 20px;
   position: relative;
 }
 
-.info-list--features .info-list__item {
-  padding-left: 20px;
-}
-
-.info-list--steps .info-list__item {
-  padding-top: 8px;
-}
-
-.info-list__item::before {
+.features__item::before {
   content: "";
   position: absolute;
   left: 0;
@@ -153,17 +146,11 @@ body {
   height: 52px;
 
   background-color: #d89999; /* Временное свойство для прототипирования */
-}
 
-.info-list--features .info-list__item::before {
   transform: translateX(-100%);
 }
 
-.info-list--steps .info-list__item::before {
-  transform: translateY(-100%);
-}
-
-.info-list__item-title {
+.features__item-title {
   font-weight: 500;
 }
 
@@ -241,6 +228,38 @@ body {
 .promo-offer__title {
   font: 400 44px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.88px;
+}
+
+/* order-steps */
+
+.order-steps__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.order-steps__item {
+  padding-top: 8px;
+  position: relative;
+}
+
+.order-steps__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 52px; /* Временное свойство для прототипирования */
+  height: 52px;
+
+  background-color: #d89999; /* Временное свойство для прототипирования */
+
+  transform: translateY(-100%);
+}
+
+.order-steps__item-title {
+  font-weight: 500;
 }
 
 /* following-news */
