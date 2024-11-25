@@ -73,6 +73,14 @@ body {
   width: 1px;
 }
 
+/* container */
+
+.container {
+  margin: auto;
+  padding: 0 50px;
+  width: 1200px;
+}
+
 /* button */
 
 .button {
