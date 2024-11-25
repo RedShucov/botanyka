@@ -331,17 +331,22 @@ body {
   font-weight: 700;
 }
 
+.contact-info__item,
+.contact-info__address {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-info__address {
   font-style: normal;
 }
 
-.contact-info__item-info {
-  margin: 0;
-
+.contact-info__data,
+.contact-info__link {
   font-weight: 500;
 }
 
-.contact-info__item-link {
+.contact-info__link {
   color: inherit;
 
   text-decoration: none;
