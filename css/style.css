@@ -165,12 +165,43 @@ body {
 
 /* hero */
 
+.hero__layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "info gallery gallery";
+  gap: 20px;
+}
+
+.hero__info {
+  grid-area: info;
+}
+
+.hero__gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  grid-area: gallery;
+}
+
 .hero__title {
+  margin: 0 0 25px;
+
   font: 400 44px "Playfair Display", Arial, sans-serif;
 }
 
 .hero__description {
+  margin-bottom: 65px;
+
   font-size: 24px;
+}
+
+.hero__image {
+  border-radius: 10px;
+}
+
+.hero__image:nth-child(1) {
+  margin-top: 60px;
 }
 
 /* features */
