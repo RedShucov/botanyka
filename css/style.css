@@ -316,7 +316,7 @@ body {
 }
 
 .categories__item {
-  background: rgba(174, 124, 120, 0.60);
+  background-color: rgba(174, 124, 120, 0.60);
 }
 
 .categories__item-link {
@@ -336,7 +336,7 @@ body {
   font-size: 24px;
   color: #ffffff;
 
-  background: #ae7c78;
+  background-color: #ae7c78;
 }
 
 .promo-offer__title {
@@ -474,7 +474,7 @@ body {
 /* footer */
 
 .footer {
-  background: #ae7c78;
+  background-color: #ae7c78;
 }
 
 .footer__navigation-list {
