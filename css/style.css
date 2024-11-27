@@ -291,15 +291,78 @@ body {
 
 /* popular */
 
+.popular__layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+}
+
 .popular__title {
+  justify-self: center;
+  grid-column: 1/-1;
+
+  margin: 0 0 16px;
+
   font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
 }
 
-.popular__button {
+.popular__slider {
+  grid-column: 3 / span 8;
+}
+
+/* slider */
+
+.slider__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+
+  margin-bottom: 4px;
+}
+
+.slider__details {
+  padding-top: 27px;
+}
+
+.slider__title {
+  margin: 0 0 20px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.slider__description {
+  margin: 0 0 24px;
+
+  line-height: 1.25;
+}
+
+.slider__size {
+  margin: 0 0 24px;
+}
+
+.slider__price {
+  margin: 0 0 65px;
+
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.slider__price strong {
+  font-weight: inherit;
+}
+
+.slider__controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slider__control {
   width: 50px;
   height: 15px;
-  padding: 0;
+  padding: 20px;
 
   background-color: #ae7c78;
   border: none;
@@ -307,24 +370,12 @@ body {
   cursor: pointer;
 }
 
-.popular__button--previous {
-  mask: url('../images/img/interactive/arrow-left.svg') no-repeat center/cover;
+.slider__control--previous {
+  mask: url('../images/img/interactive/arrow-left.svg') no-repeat center/contain;
 }
 
-.popular__button--next {
-  mask: url('../images/img/interactive/arrow-right.svg') no-repeat center/cover;
-}
-
-/* bouquet */
-
-.bouquet__title {
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.bouquet__price {
-  font-size: 24px;
-  font-weight: 500;
+.slider__control--next {
+  mask: url('../images/img/interactive/arrow-right.svg') no-repeat center/contain;
 }
 
 /* categories */
