@@ -53,6 +53,10 @@
 /* common */
 
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  min-height: 100vh;
   margin: 0;
 
   font: 16px/1.2 "Montserrat", Arial, sans-serif;
@@ -79,7 +83,6 @@ body {
 
 .container {
   width: 1200px;
-
   margin: auto;
   padding: 0 50px;
 }
@@ -185,9 +188,8 @@ body {
 .hero__gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-
   grid-area: gallery;
+  gap: 20px;
 }
 
 .hero__title {
