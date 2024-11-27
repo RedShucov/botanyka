@@ -95,29 +95,37 @@
     </section>
 
     <section class="popular">
-      <h2 class="popular__title">Популярные букеты</h2>
+      <div class="container">
+        <div class="popular__layout">
+          <h2 class="popular__title">Популярные букеты</h2>
 
-      <article class="popular__bouquet bouquet">
-        <h3 class="bouquet__title">Букет «Нежность»</h3>
+          <div class="slider">
+            <article class="slider__item">
+              <div class="slider__details">
+                <h3 class="slider__title">Букет «Нежность»</h3>
 
-        <p class="bouquet__description">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
+                <p class="slider__description">Элегантный букет, который станет отличным подарком на день рождения или юбилей.</p>
 
-        <span class="bouquet__size">30 × 40 см</span>
+                <p class="slider__size">30 × 40 см</p>
 
-        <strong class="bouquet__price">3600 руб.</strong>
+                <strong class="slider__price">3600 руб.</strong>
 
-        <a class="bouquet__order-button button" href="#">Заказать</a>
+                <a class="slider__order-button button" href="#">Заказать</a>
+              </div>
 
-        <img class="bouquet__image" src="./images/pictures/bouquet-tenderness.jpg" width="387" height="438" alt="Букет «Нежность» из белых роз с нежным жёлтым отливом">
-      </article>
+              <img class="slider__image" src="./images/pictures/bouquet-tenderness.jpg" width="387" height="438" alt="Букет «Нежность» из белых роз с нежным жёлтым отливом">
+            </article>
 
-      <div class="popular__navigation">
-        <button class="popular__button popular__button--previous">
-          <span class="sr-only">Предыдущий букет</span>
-        </button>
-        <button class="popular__button popular__button--next">
-          <span class="sr-only">Следующий букет</span>
-        </button>
+            <div class="slider__controls">
+              <button class="slider__control slider__control--previous">
+                <span class="sr-only">Предыдущий букет</span>
+              </button>
+              <button class="slider__control slider__control--next">
+                <span class="sr-only">Следующий букет</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
