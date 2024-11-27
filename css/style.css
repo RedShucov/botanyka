@@ -212,6 +212,10 @@ body {
 
 /* features */
 
+.features {
+  margin-bottom: 80px;
+}
+
 .features__list {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -250,12 +254,27 @@ body {
   left: -20px;
   top: 0;
 
-  width: 52px; /* Временное свойство для прототипирования */
   height: 52px;
 
-  background-color: #d89999; /* Временное свойство для прототипирования */
-
   transform: translateX(-100%);
+}
+
+.features__item--fast-delivery::before {
+  width: 82px;
+
+  background: url("../images/img/delivery.svg") no-repeat center;
+}
+
+.features__item--always-fresh::before {
+  width: 52px;
+
+  background: url("../images/img/bouquet.svg") no-repeat center;
+}
+
+.features__item--send-photo::before {
+  width: 59px;
+
+  background: url("../images/img/photo.svg") no-repeat center;
 }
 
 .features__item-title {
@@ -358,17 +377,17 @@ body {
   position: relative;
 }
 
-.features__item::before {
+.order-steps__item::before {
   content: "";
 
   position: absolute;
   top: 0;
   left: -20px;
 
-  width: 52px; /* Временное свойство для прототипирования */
+  width: 52px;
   height: 52px;
 
-  background-color: #d89999; /* Временное свойство для прототипирования */
+  background-color: #d89999;
 
   transform: translateX(-100%);
 }
