@@ -382,6 +382,10 @@ body {
 
 /* categories */
 
+.categories {
+  margin-bottom: 80px;
+}
+
 .categories__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -449,13 +453,37 @@ body {
 .promo-offer {
   font-size: 24px;
   color: #ffffff;
+}
+
+.promo-offer__layout  {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 
   background-color: #ae7c78;
 }
 
+.promo-offer__details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 40px 100px;
+}
+
+.promo-offer__details strong {
+  font-weight: inherit;
+}
+
 .promo-offer__title {
+  margin: 0;
+
   font: 400 44px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.88px;
+}
+
+.promo-offer__description {
+  margin: 0;
 }
 
 /* order-steps */
