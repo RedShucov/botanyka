@@ -526,17 +526,38 @@ body {
 
 .order-steps__item::before {
   content: "";
-
   position: absolute;
   top: 0;
-  left: -20px;
+  left: 50%;
 
   width: 52px;
   height: 52px;
 
-  background-color: #d89999;
+  transform: translate(-50%, -100%);
+}
 
-  transform: translateX(-100%);
+.order-steps__item--order::before {
+  width: 67px;
+
+  background: url("../images/img/order.svg") no-repeat center;
+}
+
+.order-steps__item--details::before {
+  width: 38px;
+
+  background: url("../images/img/details.svg") no-repeat center;
+}
+
+.order-steps__item--payment::before {
+  width: 70px;
+
+  background: url("../images/img/payment.svg") no-repeat center;
+}
+
+.order-steps__item--delivery::before {
+  width: 82px;
+
+  background: url("../images/img/delivery.svg") no-repeat center;
 }
 
 .order-steps__item-title {
