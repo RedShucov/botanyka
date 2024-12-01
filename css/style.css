@@ -490,6 +490,10 @@ body {
 
 /* order-steps */
 
+.order-steps {
+  margin-bottom: 80px;
+}
+
 .order-steps__title {
   margin: 0 0 36px;
 
@@ -576,9 +580,49 @@ body {
   font-size: 24px;
 }
 
+.following-news__layout {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  align-items: start;
+  gap: 20px;
+}
+
+.following-news__details  {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  grid-column: span 5;
+
+  padding: 70px 100px 70px 0;
+}
+
 .following-news__title {
+  margin: 0;
+
   font: 700 36px "Playfair Display", Arial, sans-serif;
   letter-spacing: 0.72px;
+}
+
+.following-news__description {
+  margin: 0;
+}
+
+.following-news__images {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-auto-flow: row dense;
+  grid-column: span 7;
+  gap: 20px;
+}
+
+.following-news__image--standard {
+  grid-column: span 3;
+}
+
+.following-news__image--big {
+  grid-column: 4 / span 4;
+  grid-row: 1 / span 2;
 }
 
 /* social-list */
