@@ -300,12 +300,12 @@ body {
 }
 
 .popular__title {
-  justify-self: center;
   grid-column: 1/-1;
 
   margin: 0 0 16px;
 
   font: 700 36px "Playfair Display", Arial, sans-serif;
+  text-align: center;
   letter-spacing: 0.72px;
 }
 
@@ -577,6 +577,8 @@ body {
 /* following-news */
 
 .following-news {
+  margin-bottom: 80px;
+
   font-size: 24px;
 }
 
@@ -671,20 +673,42 @@ body {
 
 /* reviews */
 
-.reviews {
+.reviews__body {
+  padding: 40px 40px 62px;
+
   border: 1px solid #ae7c78;
 }
 
 .reviews__title {
+  margin: 0 0 40px;
+
   font: 700 36px "Playfair Display", Arial, sans-serif;
+  text-align: center;
   letter-spacing: 0.72px;
 }
 
 .reviews__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+.reviews__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  text-align: center;
+  line-height: 1.25;
+}
+
+.reviews__text {
+  margin: 0;
 }
 
 .reviews__author {
