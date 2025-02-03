@@ -780,14 +780,31 @@ body {
 
 .contacts-info__map-image  {
   display: block;
-  
+
   object-fit: cover;
 }
 
 /* footer */
 
 .footer {
+  padding: 25px 0 30px;
+
   background-color: #ae7c78;
+}
+
+.footer__layout {
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+
+  gap: 100px;
+}
+
+.footer__navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 16px 68px;
 }
 
 .footer__navigation-list {
