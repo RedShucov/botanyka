@@ -411,22 +411,12 @@ body {
 }
 
 .slider__control {
-  width: 50px;
-  height: 15px;
-  padding: 20px;
+  padding: 10px;
 
-  background-color: #ae7c78;
+  background-color: transparent;
   border: none;
 
   cursor: pointer;
-}
-
-.slider__control--previous {
-  mask: url('../images/img/interactive/arrow-left.svg') no-repeat center/contain;
-}
-
-.slider__control--next {
-  mask: url('../images/img/interactive/arrow-right.svg') no-repeat center/contain;
 }
 
 /* categories */
