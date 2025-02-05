@@ -102,6 +102,21 @@ body {
 
   background-color: #d89999;
   border-radius: 40px;
+
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(196, 133, 133);
+}
+
+.button:active {
+  background-color: rgb(176, 113, 113);
+}
+
+.button:focus-visible {
+  outline: 2px solid rgb(255, 200, 200);
+  outline-offset: 4px;
 }
 
 /* header */
@@ -185,13 +200,13 @@ body {
   color: rgb(200, 80, 100);
 }
 
+.header__navigation-link:active {
+  opacity: 0.3;
+}
+
 .header__navigation-link:focus-visible {
   outline: 2px solid rgb(174, 124, 120);
   border-radius: 4px;
-}
-
-.header__navigation-link:active {
-  opacity: 0.3;
 }
 
 /* logo */
