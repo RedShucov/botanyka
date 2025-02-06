@@ -453,7 +453,10 @@ body {
   position: relative;
   overflow: hidden;
 
+  background: no-repeat center / 100%;
   border-radius: 10px;
+
+  transition: background-size 0.5s ease-in-out;
 }
 
 .categories__item--wedding {
@@ -475,6 +478,8 @@ body {
   inset: 0;
 
   background-color: rgba(174, 124, 120, 0.60);
+
+  transition: background-color 0.3s ease;
 }
 
 .categories__item-link {
@@ -492,6 +497,8 @@ body {
 
   color: #ffffff;
   text-decoration: none;
+
+  transition: color 0.3s ease;
 }
 
 .categories__item-title {
@@ -503,6 +510,24 @@ body {
 
 .categories__item-description {
   margin: 0;
+}
+
+.categories__item:hover {
+  background-size: 105%;
+}
+
+.categories__item:active .categories__item-link {
+  color: #e0e0e0;
+}
+
+.categories__item:active::after {
+  background-color: rgba(174, 124, 120, 0.8);
+}
+
+.categories__item:focus-within {
+  background-size: 105%;
+  outline: 2px solid rgb(174, 124, 120);
+  outline-offset: 4px;
 }
 
 /* promo-offer */
